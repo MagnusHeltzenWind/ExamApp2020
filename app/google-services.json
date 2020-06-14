@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "150913026129",
+    "firebase_url": "https://myshoppingapplicationexam2020.firebaseio.com",
+    "project_id": "myshoppingapplicationexam2020",
+    "storage_bucket": "myshoppingapplicationexam2020.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:150913026129:android:4fb5d95c70721eb7571070",
+        "android_client_info": {
+          "package_name": "labs.dadm.myshoppingapplicationexam2020"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "150913026129-4lrcfklldd51m6k5n3cclvj11l5h2hvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCMuN18XILsIeF7vQNxWFdz-qs0-RYnYNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "150913026129-4lrcfklldd51m6k5n3cclvj11l5h2hvj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

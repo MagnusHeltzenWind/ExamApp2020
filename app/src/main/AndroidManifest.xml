@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="labs.dadm.myshoppingapplicationexam2020">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Search"
+            android:label="Search"/>
+        <activity
+            android:name=".ProductList"
+            android:label="Product list"
+            tools:ignore="Instantiatable" />
+        <activity
+            android:name=".Settings"
+            android:label="@string/Settings" />
+        <activity android:name=".Navigation" />
+        <activity
+            android:name=".Login"
+            android:label="@string/Login" />
+        <activity
+            android:name=".Register"
+            android:label="@string/Register" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
